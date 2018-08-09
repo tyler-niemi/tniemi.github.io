@@ -1,0 +1,116 @@
+  body {
+  background: url(../images/seattle_night.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  margin: 40px auto;
+  background: rgba(22,22,22, 0.5);
+  width: 100%;
+    max-width: 960px;
+  border-radius: 5px;
+  padding-bottom: 32px;
+}
+
+#about
+{
+  color: #fff;
+}
+
+#resume
+{
+  color: #fff;
+}
+
+#training li{
+    padding-left: 40px;
+  }
+
+#portfolio, #desc
+{
+  text-align: center;
+  color: black;
+}
+
+table.center {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+#productDesc {
+  list-style-image:url(../images/action_add.png);
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+#menu > li {
+    float: left;
+    padding-right: 10px;
+  }
+
+#menu > li a {
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    border-right: 1px solid #000;
+}
+
+#menu > li a:hover:not(.active) {
+    background-color: #555;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#trips
+{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    color: #4286f4;
+    font-size: 25px;
+    border: 2px solid #4286f4;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.left {
+    float:right;
+
+}
+
+.right {
+    float: right;
+
+}
+
+.alignleft {
+  float: left;
+  margin-top: 5px;
+}
+
+.alignright {
+  float: right;
+  margin-top: 5px;
+  padding-right: 350px;
+}
+
+body.index {
+    background-color: white;
+}
+#menu > li:nth-child(1) a{ background-color: white; padding-right: 890px; font-size: 22px; text-align: center;  }
